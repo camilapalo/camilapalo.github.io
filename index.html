@@ -1,230 +1,272 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
+<title>Camila Palo | Página Personal</title>
 
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+<style>
 
-    <title>Camila Palo</title>
+html{
+    scroll-behavior:smooth;
+}
 
-    <style>
+body{
+    font-family: Arial, sans-serif;
+    background-color:#FDECEF;
+    margin:0;
+    padding:0;
+    color:#333;
+}
 
-        body{
-            background:#FFF8DC;
-            font-family:Arial, sans-serif;
-            margin:30px;
-            color:#222;
-        }
+/* Menú superior */
 
-        h1{
-            color:#FCCFEE;
-            border-bottom:3px solid #e38aa8;
-            padding-bottom:15px;
-        }
+nav{
+    background-color:#D86C8C;
+    padding:15px;
+    position:sticky;
+    top:0;
+    text-align:center;
+}
 
-        .card{
-            background:white;
-            padding:25px;
-            border-radius:12px;
-            margin-top:25px;
-            box-shadow:0 2px 8px rgba(0,0,0,0.05);
-        }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    padding:10px 18px;
+    border-radius:20px;
+    background-color:#C85A7C;
+    font-weight:bold;
+}
 
-        h2{
-            color:#FCCFEE;
-            margin-bottom:20px;
-        }
+nav a:hover{
+    background-color:#B74E70;
+}
 
-        p{
-            line-height:1.8;
-            font-size:18px;
-        }
+/* Encabezado */
 
-        ul{
-            line-height:2;
-            font-size:18px;
-        }
+header{
+    text-align:center;
+    padding:50px;
+}
 
-        a{
-            color:#d96c95;
-            text-decoration:none;
-        }
+h1{
+    color:#D86C8C;
+}
 
-        a:hover{
-            text-decoration:underline;
-        }
+h2{
+    color:#D86C8C;
+    border-bottom:2px solid #D86C8C;
+    padding-bottom:8px;
+}
 
-    </style>
+/* Tarjetas */
+
+.seccion{
+    background:white;
+    width:80%;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+ul{
+    line-height:1.8;
+}
+
+a{
+    color:#C85A7C;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
 
 </head>
 
 <body>
 
-    <h1>Camila Palo</h1>
+<nav>
 
-    <div class="card">
+<a href="#sobre">Sobre mí</a>
 
-        <p>
-            Bienvenidos a mi página web personal.
-        </p>
+<a href="#academicos">Intereses</a>
 
-        <p>
-            Hola, soy Camila Palo, estudiante de Ciencia de la Computación en la Universidad Católica San Pablo. 
-            Me interesa la tecnología y cómo puede utilizarse para resolver problemas reales. 
-            Actualmente estoy fortaleciendo mis conocimientos en programación y desarrollo de software mientras construyo una base sólida para mi formación profesional.
-        </p>
+<a href="#hobbies">Hobbies</a>
 
-    </div>
+<a href="#proyectos">Proyectos</a>
 
-    <div class="card">
+<a href="#cursos">Cursos</a>
 
-        <h2>
-            Intereses Académicos
-        </h2>
+<a href="#recursos">Recursos</a>
 
-        <ul>
+<a href="#contacto">Contacto</a>
 
-            <li>
-                Inteligencia Artificial
-            </li>
+</nav>
 
-            <li>
-                Desarrollo de software
-            </li>
+<header>
 
-            <li>
-                Programación web
-            </li>
+<h1>Camila Palo</h1>
 
-            <li>
-                Innovación tecnológica
-            </li>
+<p>
+Estudiante de Ciencia de la Computación
+<br>
+Universidad Católica San Pablo
+</p>
 
-        </ul>
+</header>
 
-    </div>
+<section id="sobre" class="seccion">
 
-    <div class="card">
+<h2>Sobre mí</h2>
 
-        <h2>
-            Actividades e intereses personales
-        </h2>
+<p>
+Soy Camila Palo, estudiante de primer semestre de Ciencia de la Computación en la Universidad Católica San Pablo.
+Me apasiona la tecnología, la programación y el aprendizaje continuo.
+</p>
 
-        <p>
-            Además de mi interés por la computación,
-            disfruto:
-        </p>
-        <ul>
-            <li>
-                Leer novelas
-            </li>
-            <li>
-                Escuchar podcast
-            </li>
-            <li>
-                Aprender sobre historia universal
-            </li>
-            <li>
-                Tejer
-            </li>
-        </ul>
+</section>
 
-    </div>
+<section id="academicos" class="seccion">
 
-    <div class="card">
+<h2>Intereses Académicos</h2>
 
-        <h2>
-            Enlaces personales:
-        </h2>
+<ul>
+<li>Inteligencia Artificial</li>
+<li>Desarrollo de Software</li>
+<li>Programación Web</li>
+<li>Algoritmos y Estructuras de Datos</li>
+<li>Ciencia de Datos</li>
+</ul>
 
-        <ul>
+</section>
 
-            <li>
-                <a href="https://github.com/camilapalo"
-                target="_blank">
+<section id="hobbies" class="seccion">
 
-                    GitHub
+<h2>Hobbies e Intereses Personales</h2>
 
-                </a>
-            </li>
+<ul>
+<li>Leer novelas</li>
+<li>Escuchar podcasts</li>
+<li>Aprender sobre historia</li>
+<li>Tejer</li>
+<li>Investigar temas de actualidad</li>
+</ul>
 
-            <li>
-                <a href="https://pages.github.com"
-                target="_blank">
+</section>
 
-                    GitHub Pages
+<section id="proyectos" class="seccion">
 
-                </a>
-            </li>
+<h2>Proyectos</h2>
 
-            <li>
-                <a href="https://developer.mozilla.org/es/docs/Web/HTML"
-                target="_blank">
+<h3>Página Web Personal</h3>
 
-                    HTML
+<p>
+Mi primer sitio web desarrollado con HTML y publicado utilizando GitHub Pages.
+</p>
 
-                </a>
-            </li>
+<h3>Prácticas de Programación</h3>
 
-            <li>
-                <a href="https://ucsp.edu.pe"
-                target="_blank">
+<p>
+Ejercicios desarrollados en Python para fortalecer mis habilidades de programación.
+</p>
 
-                    Universidad Católica San Pablo
+</section>
 
-                </a>
-            </li>
+<section id="cursos" class="seccion">
 
-        </ul>
+<h2>Cursos Actuales</h2>
 
-    </div>
-    <div class="card">
-        <h2>
-            Cursos actuales:
-        </h2>
-        <ul>
-            <li>
-                Fundamentos de programación
-            </li>
-            <li>
-                Fundamentos matematicos para computacion
-            </li>
-            <li>
-                Introduccion a computacion
-            </li>
-            <li>
-                Logica
-            </li>
-            <li>
-                Introduccion a la vida universitaria
-            </li>
-            <li>
-                Comunicacion
-            </li>
-        </ul>
-    </div>
-    <div class="card">
-        <h2>
-            Recursos de programacion
-        </h2>
-        <ul>
-            <li><a href=https://developer.mozilla.org/es/?utm_source=chatgpt.com</a>
-            </li>
-            <li>
-                <a href=https://www.w3schools.com/?utm_source=chatgpt.com></a>
-            </li>
-            <li>
-                <a href=https://docs.python.org/3/?utm_source=chatgpt.com</a>           
-            </li>
-            <li>
-                <a href=https://docs.github.com/?utm_source=chatgpt.com></a>           
-            </li>
-        </ul>   
-    </div>
+<ul>
+<li>Fundamentos de Programación</li>
+<li>Fundamentos Matemáticos para Computación</li>
+<li>Comunicación</li>
+<li>Lógica</li>
+<li>Introducción a la Computación</li>
+<li>Introducción a la Vida Universitaria</li>
+</ul>
+
+</section>
+
+<section id="recursos" class="seccion">
+
+<h2>Recursos y Enlaces</h2>
+
+<ul>
+
+<li>
+<a href="https://ucsp.edu.pe" target="_blank">
+Universidad Católica San Pablo
+</a>
+</li>
+
+<li>
+<a href="https://developer.mozilla.org/es/" target="_blank">
+MDN Web Docs
+</a>
+</li>
+
+<li>
+<a href="https://www.w3schools.com" target="_blank">
+W3Schools
+</a>
+</li>
+
+<li>
+<a href="https://docs.python.org/3/" target="_blank">
+Python Documentation
+</a>
+</li>
+
+<li>
+<a href="https://github.com" target="_blank">
+GitHub
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<section id="contacto" class="seccion">
+
+<h2>Contacto</h2>
+
+<ul>
+
+<li>
+<a href="https://github.com/camilapalo" target="_blank">
+GitHub
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/in/camila-mariela-palo-aguilar-871222415" target="_blank">
+LinkedIn
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Camila Palo
+<br>
+Estudiante de Ciencia de la Computación
+<br>
+Universidad Católica San Pablo
+</p>
+
+</footer>
 
 </body>
-
 </html>
